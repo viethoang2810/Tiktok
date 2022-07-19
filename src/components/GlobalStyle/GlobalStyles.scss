@@ -1,1 +1,19 @@
 @import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Dancing+Script:wght@500;600&family=Fredericka+the+Great&family=Indie+Flower&family=Kanit&family=Radio+Canada&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Ubuntu&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+:root{
+    --primary:#fe2c55;
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.6rem;
+    line-height:1.5;
+    text-rendering: optimizeSpeed;
+}
