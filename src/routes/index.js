@@ -5,25 +5,29 @@ import Following from '../pages/Following/index'
 import Profile from '../pages/Profile/index';
 import Upload from '../pages/Upload/index';
 import HeaderOnly from '../components/Layout/HeaderOnly/index';
-
-
+import routesConfig  from '../config/routes'
+import Live from '../pages/Live/index';
 const publicRoutes = [
     {
-        path:'/' ,
+        path:routesConfig.home ,
         component: Home
     },
     {
-        path:'/following' ,
+        path:routesConfig.following ,
         component: Following
     },
     {
-        path:'/profile' ,
+        path:routesConfig.profile ,
         component: Profile
     },
     {
-        path:'/upload' ,
+        path:routesConfig.upload ,
         component: Upload,
         layout: HeaderOnly
+    },
+    {
+        path:routesConfig.live ,
+        component: Live,
     }
 ];
 

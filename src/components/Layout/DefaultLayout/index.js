@@ -1,6 +1,6 @@
 import classNames from 'classnames/bind';
 import  Header  from '../DefaultLayout/Header/index';
-import  Slidebar  from '../DefaultLayout/Slidebar/index';
+import  Slidebar  from '../component/Slidebar/index';
 import styles from '../../Layout/DefaultLayout/DefaultLayout.module.scss';
 
 

@@ -1,5 +1,12 @@
+import React from "react";
+import HomePage from '../../components/Layout/Home/HomePage'
+
 function Home() {
-    return <h2>Home Page</h2>;
+    return (
+        <React.Fragment>
+            <HomePage />
+        </React.Fragment>
+    );
 }
 
 export default Home;

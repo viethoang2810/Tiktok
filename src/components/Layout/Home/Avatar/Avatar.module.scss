@@ -1,0 +1,33 @@
+.wrapper{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+   
+}
+.avatar{
+    padding-right: 20px;
+}
+.avt-img{
+    border-radius:50px;
+    max-width: 70px;
+    max-height: 70px;
+}
+.user-wrapper{
+    display: flex;
+    justify-content: space-around;
+    &:hover .username{
+        text-decoration: underline;
+        
+    }
+}
+.username{
+    font-size: 1.9rem;
+    font-weight: 800;
+    margin-right: 10px;
+
+}
+.header-wrapper{
+    display: flex;
+
+}
+  

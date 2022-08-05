@@ -5,6 +5,7 @@
     padding: 9px 16px;
     border-radius: 4px;
     cursor: pointer;
+    font-family: 'ProximaNova',sans-serif;
     border: 1px solid transparent;
     background-color:var(--white) !important;
     user-select: none;
@@ -55,5 +56,9 @@
         border-color: rgba(22,24, 35,0.2);
         background-color:rgba(22,24,35,0.03);
     }
+}
+.following{
+    width: 100px !important;
+    height: 35px !important;
 }
 
